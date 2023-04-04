@@ -1,9 +1,10 @@
-export default function Navbar () {
-    return(
-        <nav className="navbar">
-            <img src="../images/react-js-icon.svg" alt="react logo" className="navbar--logo" /> 
-            <h2 className="navbar--title">ReactFacts</h2>
-            <p className="navbar--text">React Course - Project 1</p>  
+
+export default function Navbar() {
+    return (
+        <nav>
+            <img src="./images/react-js-icon.svg" className="nav--icon" />
+            <h3 className="nav--logo_text">ReactFacts</h3>
+            <h4 className="nav--title">React Course - Project 1</h4>
         </nav>
     )
 }
